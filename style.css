@@ -42,8 +42,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: lavenderblush;
+    color: rgb(99, 95, 96);
     padding: 20px 80px ;
-    background-color: rgb(192, 231, 236);
+    background-color: rgb(229, 192, 236);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
 }
