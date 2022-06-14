@@ -43,9 +43,12 @@ body{
     align-items: center;
     justify-content: space-between;
     color: rgb(99, 95, 96);
-    padding: 5px 80px ;
+    padding: 5px 20px;
     background-color: rgb(108, 174, 177);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+}
+#header a.logo{
+size: 10px;
 }
 #navbar{
     display: flex;
@@ -87,4 +90,23 @@ body{
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+
+}
+#hero h1{
+    color: azure;
+}
+#hero button{
+    background-image: url("img/button2.png");
+    background-color:darkgoldenrod;
+    color: deeppink;
+    border: 15px;
+    padding: 14px 80px 14px 65px;
 }
