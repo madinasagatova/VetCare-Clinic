@@ -29,10 +29,10 @@ p{
     margin: 15px 0 20px 0;
 }
 .section-p1{
-    padding: 40px 80px;
+    padding: 20px 80px;
 }
 .section-m1{
-    margin: 40px 0;
+    margin: 20px 0;
 }
 body{
     width: 100%;
@@ -43,13 +43,15 @@ body{
     align-items: center;
     justify-content: space-between;
     color: rgb(99, 95, 96);
-    padding: 5px 20px;
-    background-color: rgb(108, 174, 177);
+    padding: 5pt 80pt;
+    background-color: rgb(13, 116, 134);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
-#header a.logo{
-size: 10px;
-}
+
 #navbar{
     display: flex;
     align-items: center;
@@ -70,7 +72,7 @@ size: 10px;
 }
 #navbar li a:hover,
 #navbar li a.active{
-    color: rgb(31, 131, 7);
+    color: rgb(252, 213, 233);
 }
 /*sudo class*/
 #navbar li a.active::after,
@@ -78,7 +80,7 @@ size: 10px;
     content: "";
     width: 30%;
     height: 2px;
-    background-color: rgb(31, 131, 7);
+    background-color: rgb(252, 213, 233);
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -104,9 +106,13 @@ size: 10px;
     color: azure;
 }
 #hero button{
-    background-image: url("img/button2.png");
-    background-color:darkgoldenrod;
-    color: deeppink;
-    border: 15px;
-    padding: 14px 80px 14px 65px;
+    
+    background-color: rgb(235, 198, 252); 
+    color: rgb(61, 44, 53);
+    border: 6px;
+    padding: 15px 50px 15px 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
 }
