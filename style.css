@@ -45,7 +45,7 @@ body{
     color: rgb(99, 95, 96);
     padding: 15px 80px;
     background-color: rgb(13, 116, 134);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -116,4 +116,16 @@ body{
     cursor: pointer;
     font-weight: 800;
     font-size: 20px;
+}
+#features .boxes{
+width: 300px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 50px rgb(rgb(15, 15, 15));
+border: 2px solid rgb(252, 213, 233);
+border-radius: 7px;
+margin: 40px 0;
+}
+#features .boxes:hover{
+    box-shadow: 10px 10px 54px rgb(0, 0, 0));  
 }
