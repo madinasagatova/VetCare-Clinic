@@ -43,7 +43,7 @@ body{
     align-items: center;
     justify-content: space-between;
     color: rgb(99, 95, 96);
-    padding: 5pt 80pt;
+    padding: 15px 80px;
     background-color: rgb(13, 116, 134);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -51,6 +51,7 @@ body{
     top: 0;
     left: 0;
 }
+
 
 #navbar{
     display: flex;
