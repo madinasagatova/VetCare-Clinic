@@ -129,3 +129,19 @@ margin: 40px 0;
 #features .boxes:hover{
     box-shadow: 10px 10px 54px rgb(0, 0, 0);  
 }
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 1);
+    background: #fff;
+    text-align: center;
+}
