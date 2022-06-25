@@ -15,7 +15,7 @@
         <input type="email" name="email" required placeholder="enter your email">
         <input type="password" name="password" required placeholder="enter your password">
         <input type="submit" name="submit" value="login now" class="form-btn">
-        <p>don't have an account? <a href="register_form.html"></a>register now</p>
+        <p>don't have an account? <a href="/register_form/register_form.php"></a>register now</p>
     </form>
 </div>
 </body>
