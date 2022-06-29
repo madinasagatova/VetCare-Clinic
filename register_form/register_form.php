@@ -1,4 +1,4 @@
-<!--?php
+<?php
 @include 'config.php';
 if(isset($_POST['submit'])){
     $name = mysqli_real_escape_string($conn,$_POST['name']);
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
     }
 };
 
-?-->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
